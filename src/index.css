@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paleta de colores personalizada del proyecto */
+  --color-app-bg: #06061a;
+  --color-app-card: #0d0d24;
+  --color-app-elev: #141430;
+  --color-app-hover: #1a1a38;
+  --color-app-border: #1e1e45;
+  --color-app-border-l: #2a2a5a;
+  --color-app-gold: #c8901e;
+  --color-app-gold-br: #e8b040;
+  --color-app-gold-pale: #f5d070;
+  --color-app-text: #e8e0cc;
+  --color-app-muted: #6e6e98;
+  --color-app-dim: #3a3a60;
+  --color-app-green: #45b870;
+  --color-app-green-bg: #0a201a;
+  --color-app-red: #d84848;
+  --color-app-red-bg: #200a0a;
+  --color-app-blue: #4878d0;
+  --color-app-blue-bg: #08182a;
+  --color-app-amber: #d09030;
+  --color-app-amber-bg: #201404;
+  /* Tipografías */
+  --font-head: 'Cormorant Garamond', serif;
+  --font-body: 'Outfit', sans-serif;
+}
+
+/* Ajustes globales adicionales */
+body {
+  background-color: var(--color-app-bg);
+  color: var(--color-app-text);
+  -webkit-font-smoothing: antialiased;
+}
